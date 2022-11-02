@@ -170,13 +170,13 @@ def vracanje_lobby():
 
 
 
-while True:
-    martin dio
-    peskov dio 
-    1)prmojena promjena_igraca
-    2)potez
-    3)pobjeda
-    4)izjednaceno
-    5)vracanje u lobby
-    scoreborad 
-    exit-->izlazak iz funckije (igre)
+#while True:
+ #   martin dio
+  #  peskov dio 
+   # 1)prmojena promjena_igraca
+    #2)potez
+    #3)pobjeda
+    #4)izjednaceno
+    #5)vracanje u lobby
+    #scoreborad 
+    #exit-->izlazak iz funckije (igre)
