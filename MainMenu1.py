@@ -80,6 +80,18 @@ def scoreboard():
         SCOREBOARD_NATRAG.update(SCREEN)
 
         
+        if player1_pobjede > player2_pobjede:
+            pobjednik = player1
+            pobjede_pobjednika = player1_pobjede
+            gubitnik = player2
+            pobjede_gubitnika = player2_pobjede
+        else:
+            pobjednik = player2
+            pobjede_pobjednika = player2_pobjede
+            gubitnik = player1
+            pobjede_gubitnika = player1_pobjede
+    
+
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -88,6 +100,10 @@ def scoreboard():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if SCOREBOARD_NATRAG.checkForInput(SCOREBOARD_MOUSE_POS):
                     main_menu()
+        tkovodi = xo_font.render(("1.  ", pobjednik, " - ", pobjede_pobjednika),igrači_font(36), (255, 255, 255))
+        drugi = xo_font.render(("1.  ", gubitnik, " - ", pobjede_gubitnika),igrači_font(36), (255, 255, 255))
+        SCREEN.blit(tkovodi, (650, 400))
+        SCREEN.blit(drugi, (650, 300))
 
         pygame.display.update()
 
