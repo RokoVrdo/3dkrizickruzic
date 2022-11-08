@@ -205,6 +205,8 @@ def vracanje_lobby():
 #tako je otprilike i izgledao kod, možda malo drugačije s obzirom na neke preinake koje smo morali napravit, 
 #ali je princip sa petljom u petlji ostao isti
 
+#što se tiče ovog drugog filea (word dokumenta) to sam si ja skicirao neke stvari, neuredno je pa mislim da neće biti od pomoći ali svejedno sam ga stavio
+
         
 
 
